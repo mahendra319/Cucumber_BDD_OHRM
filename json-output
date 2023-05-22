@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Organe HRM Login Test Scenario",
+        "description": "",
+        "id": "orange-hrm-login-feature;organe-hrm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5919562000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login Page title is OrangeHRM",
+            "match": {
+              "location": "LoginStepDefinition.login_Page_title_is_OrangeHRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enter_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user on Dashboard page",
+            "match": {
+              "location": "LoginStepDefinition.user_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM Login Feature",
+    "description": "",
+    "id": "orange-hrm-login-feature",
+    "keyword": "Feature",
+    "uri": "K:/example/Cucumber_BDD_OHRM/src/main/java/com/qa/ohrm/features/Login.feature"
+  }
+]
